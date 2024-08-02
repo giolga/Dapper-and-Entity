@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "h1GMCi8J2ZI=",
+  "dgSpecHash": "wY6Sttg4eO4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\GioLGA\\source\\repos\\DapperAndEntity\\DapperAndEntity\\DapperAndEntity.csproj",
+  "projectFilePath": "C:\\Users\\GioLGA\\Desktop\\DapperAndEntity\\DapperAndEntity\\DapperAndEntity.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\GioLGA\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\GioLGA\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

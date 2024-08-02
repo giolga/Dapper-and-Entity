@@ -36,7 +36,7 @@ namespace DapperAndEntity.Controllers
                 return NoContent();
             }
 
-            var figther = _context.Fighters.FirstOrDefault(f => f.Id == id);
+            var figther =  await _context.Fighters.FirstOrDefaultAsync(f => f.Id == id);
 
             if (figther == null)
             {
@@ -58,7 +58,7 @@ namespace DapperAndEntity.Controllers
             {
                 Name = fighterDto.Name,
                 LastName = fighterDto.LastName,
-                Division = fighterDto.Division            
+                Division = fighterDto.Division
             };
 
             _context.Fighters.Add(fighter);
@@ -66,5 +66,52 @@ namespace DapperAndEntity.Controllers
 
             return Ok(fighter);
         }
+
+        [HttpPut]
+        public async Task<ActionResult<Fighter>> UpdateFighter(int id, FighterDto fighterDto)
+        {
+            if (_context.Fighters == null)
+            {
+                return NoContent();
+            }
+
+            var fighter = _context.Fighters.FirstOrDefault(f => f.Id == id);
+            if(fighter == null)
+            {
+                return NotFound();
+            }
+
+            fighter.Name = fighterDto.Name;
+            fighter.LastName = fighterDto.LastName;
+            fighter.Division = fighterDto.Division;
+
+            _context.Entry(fighter).State = EntityState.Modified;
+
+            await _context.SaveChangesAsync();
+            return Ok(fighter);
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<ActionResult<Fighter>> DeleteFighter(int id)
+        {
+            if(_context.Fighters == null)
+            {
+                return NoContent();
+            }
+
+            var fighter = _context.Fighters.FirstOrDefault(f => f.Id == id);
+
+            if(fighter == null)
+            {
+                return NotFound();
+            }
+
+            _context.Fighters.Remove(fighter);
+            await _context.SaveChangesAsync();
+
+            return Ok($"Fighter with the is {fighter.Id} has been removed!");
+        }
+
+
     }
 }
