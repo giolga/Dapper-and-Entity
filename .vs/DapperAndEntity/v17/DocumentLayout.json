@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\GioLGA\\Desktop\\DapperAndEntity\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8AACA5EA-422D-4E22-B9C4-76E785B29BEA}|DapperAndEntity\\DapperAndEntity.csproj|c:\\users\\giolga\\desktop\\dapperandentity\\dapperandentity\\controllers\\fightercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8AACA5EA-422D-4E22-B9C4-76E785B29BEA}|DapperAndEntity\\DapperAndEntity.csproj|solutionrelative:dapperandentity\\controllers\\fightercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8AACA5EA-422D-4E22-B9C4-76E785B29BEA}|DapperAndEntity\\DapperAndEntity.csproj|c:\\users\\giolga\\desktop\\dapperandentity\\dapperandentity\\controllers\\fighterdappercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AACA5EA-422D-4E22-B9C4-76E785B29BEA}|DapperAndEntity\\DapperAndEntity.csproj|solutionrelative:dapperandentity\\controllers\\fighterdappercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8AACA5EA-422D-4E22-B9C4-76E785B29BEA}|DapperAndEntity\\DapperAndEntity.csproj|c:\\users\\giolga\\desktop\\dapperandentity\\dapperandentity\\fighter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8AACA5EA-422D-4E22-B9C4-76E785B29BEA}|DapperAndEntity\\DapperAndEntity.csproj|solutionrelative:dapperandentity\\fighter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8AACA5EA-422D-4E22-B9C4-76E785B29BEA}|DapperAndEntity\\DapperAndEntity.csproj|c:\\users\\giolga\\desktop\\dapperandentity\\dapperandentity\\dtos\\fighterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8AACA5EA-422D-4E22-B9C4-76E785B29BEA}|DapperAndEntity\\DapperAndEntity.csproj|solutionrelative:dapperandentity\\dtos\\fighterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,39 +30,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FighterDto.cs",
-              "DocumentMoniker": "C:\\Users\\GioLGA\\Desktop\\DapperAndEntity\\DapperAndEntity\\DTOs\\FighterDto.cs",
-              "RelativeDocumentMoniker": "DapperAndEntity\\DTOs\\FighterDto.cs",
-              "ToolTip": "C:\\Users\\GioLGA\\Desktop\\DapperAndEntity\\DapperAndEntity\\DTOs\\FighterDto.cs",
-              "RelativeToolTip": "DapperAndEntity\\DTOs\\FighterDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-02T19:02:30.871Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Fighter.cs",
               "DocumentMoniker": "C:\\Users\\GioLGA\\Desktop\\DapperAndEntity\\DapperAndEntity\\Fighter.cs",
               "RelativeDocumentMoniker": "DapperAndEntity\\Fighter.cs",
               "ToolTip": "C:\\Users\\GioLGA\\Desktop\\DapperAndEntity\\DapperAndEntity\\Fighter.cs",
               "RelativeToolTip": "DapperAndEntity\\Fighter.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-02T18:58:39.555Z"
+              "WhenOpened": "2024-08-03T11:46:28.088Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FighterController.cs",
-              "DocumentMoniker": "C:\\Users\\GioLGA\\Desktop\\DapperAndEntity\\DapperAndEntity\\Controllers\\FighterController.cs",
-              "RelativeDocumentMoniker": "DapperAndEntity\\Controllers\\FighterController.cs",
-              "ToolTip": "C:\\Users\\GioLGA\\Desktop\\DapperAndEntity\\DapperAndEntity\\Controllers\\FighterController.cs",
-              "RelativeToolTip": "DapperAndEntity\\Controllers\\FighterController.cs",
-              "ViewState": "AQIAAEMAAAAAAAAAAAAvwF8AAAAJAAAA",
+              "Title": "FighterDapperController.cs",
+              "DocumentMoniker": "C:\\Users\\GioLGA\\Desktop\\DapperAndEntity\\DapperAndEntity\\Controllers\\FighterDapperController.cs",
+              "RelativeDocumentMoniker": "DapperAndEntity\\Controllers\\FighterDapperController.cs",
+              "ToolTip": "C:\\Users\\GioLGA\\Desktop\\DapperAndEntity\\DapperAndEntity\\Controllers\\FighterDapperController.cs",
+              "RelativeToolTip": "DapperAndEntity\\Controllers\\FighterDapperController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAQwCkAAABKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-02T18:49:55.911Z",
+              "WhenOpened": "2024-08-03T11:31:15.901Z",
               "EditorCaption": ""
             }
           ]
