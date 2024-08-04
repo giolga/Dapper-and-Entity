@@ -40,7 +40,7 @@ namespace DapperAndEntity.Controllers
 
             if (figther == null)
             {
-                return BadRequest();
+                return NotFound();
             }
 
             return Ok(figther);

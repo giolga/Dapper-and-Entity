@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DapperAndEntity.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20240802190007_init1")]
+    [Migration("20240804101516_init1")]
     partial class init1
     {
         /// <inheritdoc />
